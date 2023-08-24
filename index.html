@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1.2P</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="navbarItems">
+            <p>Home</p>
+            <p>Products</p>
+            <p>Contact</p>
+        </div>
+    </div>
+    <h1 id="title">A Responsive Website</h1>
+
+    <p id="paragraph1" class="responsive">The navbar and heading above remain in the centre even if the viewport is changed.</p>
+    <p class="responsive">This is an example of a responsive webpage where the elements of the webpage adapts to any viewport while still providing optimum </p>
+    <p class="responsive">The items in the navbar also keep the same distance between one another and this is achieved through flexbox, one the the responsive web design technologies.</p>
+    
+    <h3 id="title2">JavaScript</h3>
+
+    <h5>String Methods</h5>
+    <div>
+        <button type="button" onclick="checklength()">Check length of title</button>
+        <p class="flex">The length on this title is </p>
+        <p id="length" class="flex"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="replace()">Change part of title</button>
+    </div>
+
+    <div>
+        <button type="button" onclick="uppercase()">Change second title to uppercase</button>
+    </div>
+    
+    <div>
+        <button type="button" onclick="substring()">View part of first paragraph</button>
+        <p class="flex" id="substring"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="concatenate()">Join two titles</button>
+        <p class="flex" id="concatenate"></p>
+    </div>
+
+    <h5>Number Methods</h5>
+    <div>
+        <button type="button" onclick="ToString()">Convert string to text</button>
+        <p class="flex">There are </p>
+        <p class="flex" id="string"></p>
+        <p class="flex"> navbar items</p>
+    </div>
+
+    <div>
+        <button type="button" onclick="getNumber()">Get the number equivalent of true</button>
+        <p class="flex" id="number"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="toNumber()">Get the number from the string "-176.36"</button>
+        <p class="flex" id="text"></p>
+    </div>
+
+
+    <div>
+        <button type="button" onclick="storeWholeNumber()">Get the whole number for -176.36</button>
+        <p class="flex" id="integer"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="validateInteger()">Check if -176.36 is an integer</button>
+        <p class="flex" id="validate"></p>
+    </div>
+
+    <h5>Array Methods</h5>
+
+    <div>
+        <button type="button" onclick="arraylength()">How many famous food outlets do i know? </button>
+        <p class="flex" id="franchisenumber"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="arrayitems()">What are their names? </button>
+        <p class="flex" id="franchisename"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="newarrayitem()">I discovered a new famous outlet. Let me add it to my list. </button>
+        <p class="flex" id="newfranchisename"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="mergearray()">I have a set of lucky and unlucky numbers. Let's display all of them </button>
+        <p class="flex" id="merge"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="splicearray()">I have 2 new unlucky numbers </button>
+        <p class="flex" id="splice"></p>
+    </div>
+    
+    <h5>Data objects</h5>
+    <div>
+        <button type="button" onclick="fulldate()">Today is </button>
+        <p class="flex" id="fulldate"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="specifieddate()">Today is </button>
+        <p class="flex" id="specified"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="previousCentury()">That day was </button>
+        <p class="flex" id="previous"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="secondsAfter()">100 million seconds after the 28th January 1988 today is </button>
+        <p class="flex" id="after"></p>
+    </div>
+
+    <div>
+        <button type="button" onclick="shortenedDate()">What if i only specify the month and year? </button>
+        <p class="flex" id="shortened"></p>
+    </div>
+
+    <h5>Function Methods</h5>
+    <p>Most of this web page is created using the function methods</p>
+</body>
+<script src="index.js"></script>
+</html>

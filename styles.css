@@ -1,0 +1,34 @@
+#navbar {
+    background-color: #F6F1F1;
+}
+
+.navbarItems {
+    color: #181D31;
+    display: flex;
+    gap: 5rem;
+    font-family: 'Josefin Sans, sans-serif';
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    background-color: #678983;
+}
+
+h1 {
+    text-align: center;
+}
+
+.responsive {
+    text-align: center;
+}
+
+.flex {
+    display: inline;
+}
+
+button {
+    margin-top: 1rem;
+}
